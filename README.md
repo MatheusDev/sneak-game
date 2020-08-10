@@ -1,2 +1,2 @@
 # sneak-game
- the good old sneak game. Created white javascript
+  the good old sneak game. Created white javascript
