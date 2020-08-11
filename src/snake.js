@@ -1,15 +1,16 @@
-class snake {
+class Snake {
 
-  constructor(x, y, width, height) {
+  constructor(x, y, width, height, canvas) {
     this.x = x
     this.y = y
     this.width = width
     this.height = height
+    this.canvas = canvas
   }
-
-  handleRun = (value) => {
-    return setTimeout()
+  drawSneak = () => {
+    this.canvas.fillRect(50,50,50,50)
   }
+  
 }
 
-export default snake
+export default Snake
